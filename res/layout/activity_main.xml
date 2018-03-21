@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        app:srcCompat="@drawable/logo" android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClickButton1"
+                android:text="@string/configurar_wifi"
+                android:theme="@style/MyButton"
+                android:drawable="@drawable/ic_settings_black_24dp"
+                android:textColor="#e8e9e9"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClickButton2"
+                android:text="@string/buscar_wifi"
+                android:theme="@style/MyButton"
+                android:drawable="@drawable/ic_perm_scan_wifi_black_24dp"
+                android:textColor="#e8e9e9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClickButton3"
+                android:text="@string/consutar_datos_disponibles"
+                android:theme="@style/MyButton"
+                android:drawable="@drawable/ic_swap_vert_black_24dp"
+                android:textColor="#e8e9e9"/>
+
+            />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClickButton4"
+                android:text="@string/incrmentar_datos_disponibles"
+                android:theme="@style/MyButton"
+                android:textColor="#e8e9e9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClickButton5"
+                android:text="@string/configuracion"
+                android:theme="@style/MyButton"
+                android:textColor="#e8e9e9"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClickButton6"
+                android:text="@string/cerrar_sesion"
+                android:theme="@style/MyButton"
+                android:drawable="@drawable/ic_exit_to_app_black_24dp"
+                android:textColor="#e8e9e9"/>
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

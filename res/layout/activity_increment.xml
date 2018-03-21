@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wiffieverywhere.mattd.wiffi_everywhere.ConsultaActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="32dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/incrementar_datos_disponibles"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dispones_de_solamente_9_gb_n_quieres_aumentar_tu_limte"
+            android:textSize="20sp"
+            tools:targetApi="lollipop_mr1"
+            android:textColor="@color/white"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnbuy1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickButton1"
+            android:text="@string/pack_1_gb_extra_por_1"
+            android:theme="@style/MyButton"
+            android:textColor="#e8e9e9"/>
+
+        <Button
+            android:id="@+id/btnbuy2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickButton2"
+            android:text="@string/pack_5_gb_extra_por_4"
+            android:theme="@style/MyButton"
+            android:textColor="#e8e9e9"/>
+
+        <Button
+            android:id="@+id/btnbuy3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickButton3"
+            android:text="@string/pack_10_gb_extra_por_7"
+            android:theme="@style/MyButton"
+            android:textColor="#e8e9e9"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

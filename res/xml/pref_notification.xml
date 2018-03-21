@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background">
+
+    <EditTextPreference
+        android:defaultValue="@null"
+        android:key="asdd"
+        android:title="Notification message"
+        android:password="false"
+        android:inputType="textPassword"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="notifications_new_user"
+        android:title="New user connected" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="notifications_new_user"
+        android:key="notifications_new_user_vibrate"
+        android:title="Vibrate"
+        android:summary="On connected" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="notifications_new_wifi"
+        android:title="New wifi available" />
+
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="notifications_new_wifi"
+        android:key="notifications_new_wifi_vibrate"
+        android:title="Vibrate"
+        android:summary="On new wifi available" />
+
+
+</PreferenceScreen>
