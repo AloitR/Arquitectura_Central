@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "70604794948",
+    "firebase_url": "https://projecte-curs-fase-construccio.firebaseio.com",
+    "project_id": "projecte-curs-fase-construccio",
+    "storage_bucket": "projecte-curs-fase-construccio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70604794948:android:8bd5ff5202018268",
+        "android_client_info": {
+          "package_name": "com.wiffieverywhere.mattd.wiffi_everywhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70604794948-9qm1mh49fa41qqsd30iqn205174bqd67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wiffieverywhere.mattd.wiffi_everywhere",
+            "certificate_hash": "cdb563b1b4828d91b1669d74796abe34d804a7ff"
+          }
+        },
+        {
+          "client_id": "70604794948-l6514ho11e87fl2ukf249biqh08f77qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1san3sx1G4WQmnlsuZpKj4xLLDMNemUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70604794948-l6514ho11e87fl2ukf249biqh08f77qu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
